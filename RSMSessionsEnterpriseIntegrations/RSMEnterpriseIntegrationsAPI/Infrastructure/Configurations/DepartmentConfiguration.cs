@@ -17,4 +17,5 @@
             builder.Property(e => e.GroupName).IsRequired();
         }
     }
+
 }
