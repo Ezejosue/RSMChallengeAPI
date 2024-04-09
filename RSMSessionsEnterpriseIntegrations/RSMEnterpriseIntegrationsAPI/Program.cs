@@ -27,6 +27,8 @@ builder.Services.AddTransient<IProductRepository, ProductRepository>();
 builder.Services.AddTransient<IProductService, ProductService>();
 builder.Services.AddTransient<IProductCateRepository, ProductCateRepository>();
 builder.Services.AddTransient<IProductCateService, ProductCateService>();
+builder.Services.AddTransient<ISaleOrderHeaderRepository, SaleOrderHeaderRepository>();
+builder.Services.AddTransient<ISaleOrderHeaderService, SaleOrderHeaderService>();
 
 
 var app = builder.Build();
